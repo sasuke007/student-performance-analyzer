@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Student Performance Analyzer
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Rohit Pandit
+%
+% Original repository:
+%
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\usepackage{xcolor}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{rohit}{}
+{ %\urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
+%\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+}\section{Codeforces}
+    \vspace{0.3 cm}
+    \begin{minipage}[t]{0.4\textwidth}
+        \subsection{Profile}
+        \vspace{0.3 cm}
+        \begin{itemize}
+            \item Handle : \href{https://codeforces.com/profile/AnestheticCoder}{\bf AnestheticCoder}
+            \item Rank : Pupil 
+            \item Current Rating : 1368
+            \item Max Rating : 1460
+            \item Contribution : 0
+            \item Questions Solved : 35
+        \end{itemize}
+    \end{minipage}
+    \begin{minipage}[t]{0.59\textwidth}
+        \subsection{Recent Submissions}
+            \vspace{0.3 cm}
+            \begin{minipage}[t]{0.49\textwidth}
+            \begin{itemize}
+                %\color{red}
+                \item \href{https://codeforces.com/contest/1374/problem/E1}{\bf E1 - Reading Books (easy version)}
+                \item
+                \href{https://codeforces.com/contest/1369/problem/C}{\bf C - RationalLee}
+                \item
+                \href{https://codeforces.com/contest/1369/problem/A}{\bf A - FashionabLee}
+                \item
+                \href{https://codeforces.com/contest/1352/problem/G}{\bf G - Special Permutation}
+                \item
+                \href{https://codeforces.com/contest/1353/problem/D}{\bf D - Constructing the Array}
+                \item
+                \href{https://codeforces.com/contest/1324/problem/E}{\bf E - Sleeping Schedule}
+            \end{itemize}
+            \end{minipage}
+            \begin{minipage}[t]{0.5\textwidth}
+                \begin{itemize}
+                    \item \href{https://codeforces.com/contest/1359/problem/C}{\bf C - Mixing Water}
+                    \item \href{https://codeforces.com/contest/1359/problem/B}{\bf B - New Theatre Square}
+                    \item \href{https://codeforces.com/contest/1359/problem/A}{\bf A - Berland Poker}
+                    \item \href{https://codeforces.com/contest/1360/problem/F}{\bf F - Spy-string}
+                    \item \href{https://codeforces.com/contest/1355/problem/D}{\bf D - Game With Array}
+                    \item \href{https://codeforces.com/contest/1355/problem/B}{\bf B - Young Explorers}
+                \end{itemize}
+            \end{minipage}
+    \end{minipage}
+    \sectionsep\end{document}
+\documentclass[]{article}

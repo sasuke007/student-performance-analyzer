@@ -1,0 +1,3179 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="5ce7244a61f4dfdc08a2f0bc19d4bfd1"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
+
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery-1.8.3.js"></script>
+    <script type="application/javascript">
+        window.standaloneContest = false;
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 1100; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+    </script>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="g2">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"/>
+    <meta property="fb:admins" content="100001352546622" />
+    <meta property="og:image" content="//sta.codeforces.com/s/76560/images/codeforces-telegram-square.png" />
+    <link rel="image_src" href="//sta.codeforces.com/s/76560/images/codeforces-telegram-square.png" />
+    <meta property="og:title" content="Personal submissions - Codeforces"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="og:site_name" content="Codeforces"/>
+    
+    
+    <meta name="gc" content="8e6e8ba8a1bd591871f7846ebd71f3c632971d4c"/>
+    
+    
+    
+    <meta name="utc_offset" content="+03:00"/>
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2" />
+    <title>Personal submissions - Codeforces</title>
+        <meta name="description" content="Codeforces. Programming competitions and contests, programming community" />
+        <meta name="keywords" content="programming algorithm contest competition informatics olympiads c++ java graphs vkcup" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/font-awesome.min.css" type="text/css" charset="utf-8" />
+
+        <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="//sta.codeforces.com/s/76560/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="//sta.codeforces.com/s/76560/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="//sta.codeforces.com/s/76560/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="//sta.codeforces.com/s/76560/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="//sta.codeforces.com/s/76560/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="//sta.codeforces.com/s/76560/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="//sta.codeforces.com/s/76560/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="//sta.codeforces.com/s/76560/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="//sta.codeforces.com/s/76560/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="//sta.codeforces.com/s/76560/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="//sta.codeforces.com/s/76560/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="//sta.codeforces.com/s/76560/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="//sta.codeforces.com/s/76560/favicon-16x16.png">
+    <link rel="manifest" href="//sta.codeforces.com/s/76560/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="//sta.codeforces.com/s/76560/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/prettify.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/clear.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/ttypography.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/problem-statement.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/second-level-menu.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/roundbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/datatable.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/table-form.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/topic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/jquery.jgrowl.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/facebox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/jquery.wysiwyg.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/codeforces.datepick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/colorbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/jquery.drafts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/status.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//sta.codeforces.com/s/76560/css/community.css" type="text/css" charset="utf-8" />
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+    });
+    </script>
+    <script type="text/javascript" async
+            src="https://assets.codeforces.com/mathjax/MathJax.js?config=TeX-AMS_HTML-full"
+    >
+    </script>
+    <!-- /MathJax -->
+
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/pushstream.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.swipe.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/facebox.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/controls/wysiwyg.colorpicker.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/controls/wysiwyg.table.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/controls/wysiwyg.image.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/controls/wysiwyg.link.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/ua-parser.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.datepick.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.ie6blocker.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.ba-bbq.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery.drafts.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/autosize.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/sjcl.js"></script>
+    <script type="text/javascript" src="/scripts/6aeb8186aefe2db63d3a93e41258938d/en/codeforces-options.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/codeforces.js?v=20160131"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/EventCatcher.js?v=20160131"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/preparedVerdictFormats-en.js"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/markitup/skins/markitup/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/76560/markitup/sets/markdown/style.css" type="text/css" charset="utf-8" />
+
+
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/76560/markitup/sets/markdown/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+
+
+</head>
+<body class=" "><span style='display:none;' class='csrf-token' data-csrf='5ce7244a61f4dfdc08a2f0bc19d4bfd1'>&nbsp;</span>
+<!-- .notificationTextCleaner used in Codeforces.showAnnouncements() -->
+<div class="notificationTextCleaner" style="font-size: 0px"></div>
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+<div class="verdictPrototypeDiv" style="display: none;"></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    String.prototype.hashCode = function() {
+        var hash = 0, i, chr;
+        if (this.length === 0) return hash;
+        for (i = 0; i < this.length; i++) {
+            chr   = this.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    };
+
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile == "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != false) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+
+
+<script type="text/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '554666954583323',
+            xfbml      : true,
+            version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }});
+
+    window.updateTypography();
+
+    Codeforces.signForms();
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 700
+        });
+    }, 100);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+
+    function showAnnouncements(json) {
+        //info("j=" + JSON.stringify(json));
+
+        if (json.t != "a") {
+            return;
+        }
+        // console.log("Got announcement from channel");
+        setTimeout(function() {
+            Codeforces.showAnnouncements(json.d, "en");
+        }, Math.random() * 500);
+    }
+
+    function showEventCatcherUserMessage(json) {
+        if (json.t == "s") {
+            var points = json.d[5];
+            var passedTestCount = json.d[7];
+            var judgedTestCount = json.d[8];
+            var verdict = preparedVerdictFormats[json.d[12]];
+            var verdictPrototypeDiv = $(".verdictPrototypeDiv");
+            verdictPrototypeDiv.html(verdict);
+            if (judgedTestCount != null && judgedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-judged").text(judgedTestCount);
+            }
+            if (passedTestCount != null && passedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-passed").text(passedTestCount);
+            }
+            if (points != null && points != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-points").text(points);
+            }
+            Codeforces.showMessage(verdictPrototypeDiv.text());
+        }
+    }
+
+    $(".clickable-title").each(function() {
+        var title = $(this).attr("data-title");
+        if (title) {
+            var tmp = document.createElement("DIV");
+            tmp.innerHTML = title;
+            $(this).attr("title", tmp.textContent || tmp.innerText || "");
+        }
+    });
+
+    $(".clickable-title").click(function() {
+        var title = $(this).attr("data-title");
+        if (title) {
+            Codeforces.alert(title);
+        } else {
+            Codeforces.alert($(this).attr("title"));
+        }
+    }).css("position", "relative").css("bottom", "3px");
+
+        Codeforces.showDelayedMessage();
+
+    Codeforces.reformatTimes();
+
+    //Codeforces.initializePubSub();
+    if (window.codeforcesOptions.subscribeServerUrl) {
+        window.eventCatcher = new EventCatcher(
+            window.codeforcesOptions.subscribeServerUrl,
+            [
+                Codeforces.getGlobalChannel(),
+                Codeforces.getUserChannel(),
+                Codeforces.getUserShowMessageChannel(),
+                Codeforces.getContestChannel(),
+                Codeforces.getParticipantChannel(),
+                Codeforces.getTalkChannel()
+            ]
+        );
+
+        if (Codeforces.getParticipantChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getParticipantChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getContestChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getContestChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getGlobalChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getGlobalChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserShowMessageChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserShowMessageChannel(), function(json) {
+                showEventCatcherUserMessage(json);
+            });
+        }
+    }
+
+    Codeforces.setupContestTimes("/data/contests");
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-743380-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = (document.location.protocol == 'https:' ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<div id="body">
+        
+
+<div class="side-bell" style="visibility: hidden; display: none; opacity: 0.7; width: 40px; position: fixed; right: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 1.5rem;">
+    <span class="icon-stack" style="width: 100%;">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-bell-alt icon-light"></i>
+    </span>
+    <br/>
+    <span class="side-bell__count" style="position: relative; top: -10px;"></span>
+</div>
+
+
+<div id="header" style="position: relative;">
+    <div style="float:left;">
+            <a href="/"><img style="height: 50px; margin-top: 10px;" title="Make Codeforces, not Coronaforces" alt="Make Codeforces not Coronaforces" src="//sta.codeforces.com/s/76560/images/codeforces-vs-coronavirus-65.png"/></a>
+    </div>
+    <div class="lang-chooser">
+        <div style="text-align: right;">
+            <a href="?locale=en"><img src="//sta.codeforces.com/s/76560/images/flags/24/gb.png" title="In English" alt="In English"/></a>
+            <a href="?locale=ru"><img src="//sta.codeforces.com/s/76560/images/flags/24/ru.png" title="По-русски" alt="По-русски"/></a>
+        </div>
+
+        <div >
+                        <a href="/enter?back=%2Fsubmissions%2FAnestheticCoder%2Fpage%2F2">Enter</a>
+                     | 
+                        <a href="/register">Register</a>
+                    
+        </div>
+
+
+
+    </div>
+    <br style="clear: both;"/>
+</div>
+        
+
+    <div class="roundbox menu-box" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+            <div class="roundbox-lb">&nbsp;</div>
+            <div class="roundbox-rb">&nbsp;</div>
+    <div class="menu-list-container">
+    <ul class="menu-list main-menu-list">
+                <li class=""><a href="/">Home</a></li>
+                <li class=""><a href="/top">Top</a></li>
+                <li class=""><a href="/contests">Contests</a></li>
+                <li class=""><a href="/gyms">Gym</a></li>
+                <li class=""><a href="/problemset">Problemset</a></li>
+                <li class=""><a href="/groups">Groups</a></li>
+                <li class=""><a href="/ratings">Rating</a></li>
+                <li class=""><a href="/edu/courses"><span class="edu-menu-item">Edu</span></a></li>
+                <li class=""><a href="/apiHelp">API</a></li>
+                <li class=""><a href="/calendar">Calendar</a></li>
+                <li class=""><a href="/help">Help</a></li>
+                <li class=""><a href="/10years"><span style="color:#ce2a2a;font-weight:bold;">10 years! <i style="font-size:100%" class="icon-gift"></i></span></a></li>
+    </ul>
+        <form method="post" action="/search"><input type='hidden' name='csrf_token' value='5ce7244a61f4dfdc08a2f0bc19d4bfd1'/>
+            <input class="search" name="query" data-isPlaceholder="true" value=""/>
+        </form>
+    <br style="clear: both;"/>
+</div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input.search").focus(function () {
+                if ($(this).attr("data-isPlaceholder") === "true") {
+                    $(this).val("");
+                    $(this).removeAttr("data-isPlaceholder");
+                }
+            });
+        });
+    </script>
+            <br style="height: 3em; clear: both;"/>
+
+        <div style="position: relative;">
+                        <div id="sidebar">
+    <div class="roundbox sidebox" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Pay attention
+            <div class="top-links">
+            </div>
+        </div>
+<div style="padding: 0.5em;">
+        <div style="text-align:center;border-bottom: 1px solid rgb(185, 185, 185);margin:0 -0.5em 0.5em -0.5em;padding: 0 1em 0.5em 1em;">
+            <span class='contest-state-phase'>Before contest</span><br/><a href="/contests/1389">Educational Codeforces Round 92 (Rated for Div. 2)</a><br/><span class='countdown' home='//sta.codeforces.com/s/76560' noRedirection='true' textBeforeRedirect=''>01:53:43</span><br/><a href="/contestRegistration/1389">Register now »</a>
+        </div>
+        <div style="text-align:center;">
+            <div class="socials" style="text-align: left;">
+                <div style="margin-top: 0.85em;position: relative;">
+
+        <div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_EN/all.js#appId=554666954583323&xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-like" data-href="//codeforces.com/contests/1389" data-send="false" data-width="256" data-show-faces="false" data-font="arial" data-ref='1510563'></div>
+
+        </div>
+</div>
+
+        </div>
+</div>
+    </div>
+<div class="roundbox sidebox top-contributed" style="">
+<div class="roundbox-lt">&nbsp;</div>
+<div class="roundbox-rt">&nbsp;</div>
+<div class="caption titled">&rarr; Top rated
+<div class="top-links">
+</div>
+</div>
+<table class="rtable ">
+<tbody>
+<tr>
+<th class="left" style="width:2.25em;">#</th>
+<th class="">User</th>
+<th class="" style="width:5em;">Rating</th>
+</tr>
+<tr>
+<td class="left dark">1</td>
+<td class=" dark"><a href="/profile/tourist" title="Legendary Grandmaster tourist" class="rated-user user-legendary"><span class="legendary-user-first-letter">t</span>ourist</a></td>
+<td class=" dark">3735</td>
+</tr>
+<tr>
+<td class="left ">2</td>
+<td class=""><a href="/profile/MiFaFaOvO" title="Legendary Grandmaster MiFaFaOvO" class="rated-user user-legendary"><span class="legendary-user-first-letter">M</span>iFaFaOvO</a></td>
+<td class="">3681</td>
+</tr>
+<tr>
+<td class="left dark">3</td>
+<td class=" dark"><a href="/profile/Um_nik" title="Legendary Grandmaster Um_nik" class="rated-user user-legendary"><span class="legendary-user-first-letter">U</span>m_nik</a></td>
+<td class=" dark">3553</td>
+</tr>
+<tr>
+<td class="left ">4</td>
+<td class=""><a href="/profile/Benq" title="Legendary Grandmaster Benq" class="rated-user user-legendary"><span class="legendary-user-first-letter">B</span>enq</a></td>
+<td class="">3376</td>
+</tr>
+<tr>
+<td class="left dark">5</td>
+<td class=" dark"><a href="/profile/ecnerwala" title="Legendary Grandmaster ecnerwala" class="rated-user user-legendary"><span class="legendary-user-first-letter">e</span>cnerwala</a></td>
+<td class=" dark">3295</td>
+</tr>
+<tr>
+<td class="left ">6</td>
+<td class=""><a href="/profile/maroonrk" title="Legendary Grandmaster maroonrk" class="rated-user user-legendary"><span class="legendary-user-first-letter">m</span>aroonrk</a></td>
+<td class="">3229</td>
+</tr>
+<tr>
+<td class="left dark">7</td>
+<td class=" dark"><a href="/profile/TLE" title="Legendary Grandmaster TLE" class="rated-user user-legendary"><span class="legendary-user-first-letter">T</span>LE</a></td>
+<td class=" dark">3223</td>
+</tr>
+<tr>
+<td class="left ">8</td>
+<td class=""><a href="/profile/Radewoosh" title="Legendary Grandmaster Radewoosh" class="rated-user user-legendary"><span class="legendary-user-first-letter">R</span>adewoosh</a></td>
+<td class="">3216</td>
+</tr>
+<tr>
+<td class="left dark">9</td>
+<td class=" dark"><a href="/profile/scott_wu" title="Legendary Grandmaster scott_wu" class="rated-user user-legendary"><span class="legendary-user-first-letter">s</span>cott_wu</a></td>
+<td class=" dark">3209</td>
+</tr>
+<tr>
+<td class="left bottom">10</td>
+<td class="bottom"><a href="/profile/Petr" title="Legendary Grandmaster Petr" class="rated-user user-legendary"><span class="legendary-user-first-letter">P</span>etr</a></td>
+<td class="bottom">3205</td>
+</tr>
+</tbody>
+</table>
+<div class="bottom-links">
+<table style="width:100%;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="/ratings/countries">Countries</a> |
+<a href="/ratings/cities">Cities</a> |
+<a href="/ratings/organizations">Organizations</a>
+</td>
+<td style="text-align:right;">
+<a href="/ratings">View all &rarr;</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><div class="roundbox sidebox top-contributed" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Top contributors
+            <div class="top-links">
+            </div>
+        </div>
+        <table class="rtable ">
+            <tbody>
+                <tr>
+                            <th class="left" style="width:2.25em;">#</th>
+                            <th class="">User</th>
+                            <th class="" style="width:5em;">Contrib.</th>
+                </tr>
+                    <tr>
+                                <td class="left  dark">1</td>
+                                <td class=" dark"><a href="/profile/Errichto" title="International Grandmaster Errichto" class="rated-user user-red">Errichto</a></td>
+                                <td class=" dark">201</td>
+                    </tr>
+                    <tr>
+                                <td class="left ">2</td>
+                                <td class=""><a href="/profile/antontrygubO_o" title="Grandmaster antontrygubO_o" class="rated-user user-red">antontrygubO_o</a></td>
+                                <td class="">191</td>
+                    </tr>
+                    <tr>
+                                <td class="left  dark">3</td>
+                                <td class=" dark"><a href="/profile/pikmike" title="Grandmaster pikmike" class="rated-user user-red">pikmike</a></td>
+                                <td class=" dark">186</td>
+                    </tr>
+                    <tr>
+                                <td class="left ">4</td>
+                                <td class=""><a href="/profile/Monogon" title="Master Monogon" class="rated-user user-orange">Monogon</a></td>
+                                <td class="">184</td>
+                    </tr>
+                    <tr>
+                                <td class="left  dark">5</td>
+                                <td class=" dark"><a href="/profile/Ashishgup" title="International Master Ashishgup" class="rated-user user-orange">Ashishgup</a></td>
+                                <td class=" dark">182</td>
+                    </tr>
+                    <tr>
+                                <td class="left ">5</td>
+                                <td class=""><a href="/profile/vovuh" title="Master vovuh" class="rated-user user-orange">vovuh</a></td>
+                                <td class="">182</td>
+                    </tr>
+                    <tr>
+                                <td class="left  dark">7</td>
+                                <td class=" dark"><a href="/profile/Um_nik" title="Legendary Grandmaster Um_nik" class="rated-user user-legendary"><span class="legendary-user-first-letter">U</span>m_nik</a></td>
+                                <td class=" dark">179</td>
+                    </tr>
+                    <tr>
+                                <td class="left ">8</td>
+                                <td class=""><a href="/profile/Radewoosh" title="Legendary Grandmaster Radewoosh" class="rated-user user-legendary"><span class="legendary-user-first-letter">R</span>adewoosh</a></td>
+                                <td class="">175</td>
+                    </tr>
+                    <tr>
+                                <td class="left  dark">9</td>
+                                <td class=" dark"><a href="/profile/SecondThread" title="Grandmaster SecondThread" class="rated-user user-red">SecondThread</a></td>
+                                <td class=" dark">171</td>
+                    </tr>
+                    <tr>
+                                <td class="left bottom">10</td>
+                                <td class="bottom"><a href="/profile/McDic" title="Candidate Master McDic" class="rated-user user-violet">McDic</a></td>
+                                <td class="bottom">162</td>
+                    </tr>
+            </tbody>
+        </table>
+            <div class="bottom-links">
+                <table style="width:100%;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left;">
+                            </td>
+                            <td style="text-align:right;">
+                                    <a href="/top-contributed">View all &rarr;</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+    </script>
+
+    <div class="roundbox sidebox" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Find user
+            <div class="top-links">
+            </div>
+        </div>
+        <form class="handleForm" method="post"><input type='hidden' name='csrf_token' value='5ce7244a61f4dfdc08a2f0bc19d4bfd1'/>
+            <div style="padding:1em;text-align:right;">
+                <label style="padding-right:1em;">Handle:
+                    <input style="width:12em;" type="text" class="handleBox"/>
+                </label>
+            </div>
+            <div style="padding: 0 1em 1em 1em;text-align:right;">
+                <input style="height:1.65em;padding:0 0.75em;" type="submit" value="Find"/>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+    $(".handleBox").autocomplete("/data/handles", {
+        delay: 200,
+        width: 200,
+        selectFirst: false,
+        matchContains: true,
+        minChars: 3
+    });
+    $(".handleForm").attr("autocomplete", "off").submit(function () {
+        var link = "/profile/userHandle".replace(
+            "userHandle", $(this).find(".handleBox").val()
+        );
+        window.location = link;
+        return false;
+    });
+        });
+    </script>
+
+
+
+
+    <div class="roundbox sidebox" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Recent actions
+            <div class="top-links">
+            </div>
+        </div>
+        <div class="recent-actions">
+            <ul>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/priyanshu-panwar" title="Newbie priyanshu-panwar" class="rated-user user-gray">priyanshu-panwar</a>        &rarr;
+        <a href="/blog/entry/80698">CodeNation Intern Hiring 2021 Program Questions</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Pirate_ksh" title="Expert Pirate_ksh" class="rated-user user-blue">Pirate_ksh</a>        &rarr;
+        <a href="/blog/entry/79917">Codeforces Upsolving Helper</a>
+&nbsp;&nbsp;<img alt="Text created or updated" title="Text created or updated" src="//sta.codeforces.com/s/76560/images/icons/x-update-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/pikmike" title="Grandmaster pikmike" class="rated-user user-red">pikmike</a>        &rarr;
+        <a href="/blog/entry/73872">Educational Codeforces Round 82 Editorial</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/vovuh" title="Master vovuh" class="rated-user user-orange">vovuh</a>        &rarr;
+        <a href="/blog/entry/67598">Codeforces Round #565 (Div. 3) Editorial</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/pikmike" title="Grandmaster pikmike" class="rated-user user-red">pikmike</a>        &rarr;
+        <a href="/blog/entry/80723">Educational Codeforces Round 92 [Rated for Div. 2]</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Denisov" title="Master Denisov" class="rated-user user-orange">Denisov</a>        &rarr;
+        <a href="/blog/entry/80682">Codeforces Round #660 (Div. 2)</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/SecondThread" title="Grandmaster SecondThread" class="rated-user user-red">SecondThread</a>        &rarr;
+        <a href="/blog/entry/79284">AlgorithmsThread Ep 3: Segment Trees (+ hard ST Problem)</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/she_ki_chine_amare" title="Unrated, she_ki_chine_amare" class="rated-user user-black">she_ki_chine_amare</a>        &rarr;
+        <a href="/blog/entry/80741">Shouldn&#39;t my solution for B1. Koa and the Beach (Easy Version)  get TLE ?</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/LoneFox" title="International Master LoneFox" class="rated-user user-orange">LoneFox</a>        &rarr;
+        <a href="/blog/entry/80500">Facebook Hacker Cup 2020: Qualification Round</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Dhruv_Rana" title="Pupil Dhruv_Rana" class="rated-user user-green">Dhruv_Rana</a>        &rarr;
+        <a href="/blog/entry/80750">No editorial for CSES problem set</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/kstheking" title="Specialist kstheking" class="rated-user user-cyan">kstheking</a>        &rarr;
+        <a href="/blog/entry/80693">Codenation Interview Question — Help Needed</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/dolphingarlic" title="Master dolphingarlic" class="rated-user user-orange">dolphingarlic</a>        &rarr;
+        <a href="/blog/entry/78564">[Tutorial] Path sum queries on a tree using a Fenwick tree</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Robbinb1993" title="Candidate Master Robbinb1993" class="rated-user user-violet">Robbinb1993</a>        &rarr;
+        <a href="/blog/entry/76015">uDebug Tool</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/sebi420p" title="Expert sebi420p" class="rated-user user-blue">sebi420p</a>        &rarr;
+        <a href="/blog/entry/80656">Organising my first contest!</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/guille" title="Master guille" class="rated-user user-orange">guille</a>        &rarr;
+        <a href="/blog/entry/80703">English language online contest with PRIZE of 100 euros for the winner</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/C137" title="Candidate Master C137" class="rated-user user-violet">C137</a>        &rarr;
+        <a href="/blog/entry/75561">I wanted to become Master in my 200 rated round, but...</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/vovuh" title="Master vovuh" class="rated-user user-orange">vovuh</a>        &rarr;
+        <a href="/blog/entry/79517">Codeforces Round #653 (Div. 3) Editorial</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/pikmike" title="Grandmaster pikmike" class="rated-user user-red">pikmike</a>        &rarr;
+        <a href="/blog/entry/73105">Educational Codeforces Round 80 Editorial</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/fcspartakm" title="Candidate Master fcspartakm" class="rated-user user-violet">fcspartakm</a>        &rarr;
+        <a href="/blog/entry/47773">Editorial Technocup 2017 — Elimination Round 1</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/pikmike" title="Grandmaster pikmike" class="rated-user user-red">pikmike</a>        &rarr;
+        <a href="/blog/entry/80054">Educational Codeforces Round 91 Editorial</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/arujbansal" title="Pupil arujbansal" class="rated-user user-green">arujbansal</a>        &rarr;
+        <a href="/blog/entry/78029">Atcoder Educational DP Contest Editorial (Unofficial) (In Progress)</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/vamaddur" title="Master vamaddur" class="rated-user user-orange">vamaddur</a>        &rarr;
+        <a href="/blog/entry/80679">Counting the Number of Connected Subgraphs with a Node Having the Maximum Label</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Eddagdeg" title="Specialist Eddagdeg" class="rated-user user-cyan">Eddagdeg</a>        &rarr;
+        <a href="/blog/entry/80567">I solved more than 1341 problems till difficulty 2200 but no improvement at all , I feel frustrated should I quit?</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Petr" title="Legendary Grandmaster Petr" class="rated-user user-legendary"><span class="legendary-user-first-letter">P</span>etr</a>        &rarr;
+        <a href="/blog/entry/80748">A pen testing week</a>
+&nbsp;&nbsp;<img alt="Text created or updated" title="Text created or updated" src="//sta.codeforces.com/s/76560/images/icons/x-update-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/aop" title="Newbie aop" class="rated-user user-gray">aop</a>        &rarr;
+        <a href="/blog/entry/80729">Doubt About set Usage</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+            </ul>
+        </div>
+            <div class="bottom-links">
+                <table style="width:100%;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left;">
+                            </td>
+                            <td style="text-align:right;">
+                                    <a href="/recent-actions">Detailed &rarr;</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+                        <div id="pageContent" class="content-with-sidebar">
+                    <div class="second-level-menu">
+<ul class="second-level-menu-list">
+        <li><a
+                                        href="/profile/AnestheticCoder">AnestheticCoder</a></li>
+        <li><a
+                                        href="/blog/AnestheticCoder">Blog</a></li>
+        <li><a
+                                        href="/teams/with/AnestheticCoder">Teams</a></li>
+        <li class="current selectedLava"><a
+                                        href="/submissions/AnestheticCoder">Submissions</a></li>
+        <li><a
+                                        href="/contests/with/AnestheticCoder">Contests</a></li>
+</ul>
+</div>
+    <div style="float:right;position:relative;bottom:3em;font-size:1.0rem;">
+        <form action="" method="post" class="toggle-show-unofficial" style="margin-top:0.5em;"><input type='hidden' name='csrf_token' value='5ce7244a61f4dfdc08a2f0bc19d4bfd1'/>
+            <input type="hidden" name="action" value="toggleShowUnofficial"/>
+            <input name="showUnofficial" id="showUnofficial" type="checkbox" checked/>
+            <label for="showUnofficial" style="position:relative;bottom:0.4em;">show unofficial</label>
+        </form>
+    </div>
+    <div style="margin: 0 auto; text-align: center; padding: 1.5em 0 0.5em 0; font-size: 1.25em;">AnestheticCoder submissions</div>
+
+<style type="text/css">
+    .diagnosticsHint {
+        cursor: pointer;
+    }
+    .status-party-cell {
+        text-align:left;
+        padding-left:1em;
+    }
+</style>
+
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                AnestheticCoder submissions
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//sta.codeforces.com/s/76560/images/icons/control.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//sta.codeforces.com/s/76560/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="status-frame-datatable">
+<tr class="first-row">
+    <th style="width:6em;">#</th>
+    <th>When</th>
+    <th style="text-align:center;">Who</th>
+    <th>Problem</th>
+    <th>Lang</th>
+    <th>Verdict</th>
+        <th style="width: 1em;">Time</th>
+        <th style="width: 1em;">Memory</th>
+</tr>
+
+
+<tr data-submission-id="79131744" data-a="4404414083699728410" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/466/submission/79131744" submissionId="79131744">79131744</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/06/2020 13:54</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50439385">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="13619">
+            <a href="/contest/466/problem/C">
+                C - Number of Ways
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="79131744" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="79131744" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">26</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                171&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                5900&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="79131571" data-a="4404383769820553222" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/466/submission/79131571" submissionId="79131571">79131571</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/06/2020 13:51</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50439385">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="13619">
+            <a href="/contest/466/problem/C">
+                C - Number of Ways
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="79131571" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="79131571" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">6</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                1200&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="79001823" data-a="4370816818538528770" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1342/submission/79001823" submissionId="79001823">79001823</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/04/2020 23:04</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50376341">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1342/standings/participant/50376341#p50376341'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="604758">
+            <a href="/contest/1342/problem/C">
+                C - Yet Another Counting Problem
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="79001823" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="79001823" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                46&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78997556" data-a="4369886837859852293" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1342/submission/78997556" submissionId="78997556">78997556</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/04/2020 21:54</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50376341">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1342/standings/participant/50376341#p50376341'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="604757">
+            <a href="/contest/1342/problem/B">
+                B - Binary Period
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78997556" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78997556" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78996724" data-a="4369739400222507015" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1342/submission/78996724" submissionId="78996724">78996724</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/04/2020 21:42</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50376341">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1342/standings/participant/50376341#p50376341'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="604756">
+            <a href="/contest/1342/problem/A">
+                A - Road To Zero
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78996724" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78996724" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78996501" data-a="4369695282318442498" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1342/submission/78996501" submissionId="78996501">78996501</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/04/2020 21:39</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50376341">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1342/standings/participant/50376341#p50376341'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="604756">
+            <a href="/contest/1342/problem/A">
+                A - Road To Zero
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78996501" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78996501" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78996257" data-a="4369644893762125826" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1342/submission/78996257" submissionId="78996257">78996257</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/04/2020 21:36</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50376341">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1342/standings/participant/50376341#p50376341'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="604756">
+            <a href="/contest/1342/problem/A">
+                A - Road To Zero
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78996257" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78996257" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78984494" data-a="4367073471107711010" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1348/submission/78984494" submissionId="78984494">78984494</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/04/2020 19:00</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50329057">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="609090">
+            <a href="/contest/1348/problem/C">
+                C - Phoenix and Distribution
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78984494" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78984494" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                300&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78984031" data-a="4367016408172216321" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1348/submission/78984031" submissionId="78984031">78984031</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/04/2020 18:54</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50329057">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="609090">
+            <a href="/contest/1348/problem/C">
+                C - Phoenix and Distribution
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78984031" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78984031" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">1</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78981904" data-a="4366725845044690949" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1348/submission/78981904" submissionId="78981904">78981904</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/04/2020 18:31</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50329057">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="609088">
+            <a href="/contest/1348/problem/A">
+                A - Phoenix and Balance
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78981904" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78981904" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                30&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78921454" data-a="4358185440015556633" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1348/submission/78921454" submissionId="78921454">78921454</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/03/2020 22:07</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50339593">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1348/standings/participant/50339593#p50339593'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="609089">
+            <a href="/contest/1348/problem/B">
+                B - Phoenix and Beauty
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78921454" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78921454" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                78&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                200&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78920809" data-a="4358119855864946689" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1348/submission/78920809" submissionId="78920809">78920809</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/03/2020 21:57</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50339593">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1348/standings/participant/50339593#p50339593'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="609089">
+            <a href="/contest/1348/problem/B">
+                B - Phoenix and Beauty
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78920809" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78920809" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">1</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                30&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78920419" data-a="4358070128733593602" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1348/submission/78920419" submissionId="78920419">78920419</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/03/2020 21:51</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50339593">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1348/standings/participant/50339593#p50339593'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="609089">
+            <a href="/contest/1348/problem/B">
+                B - Phoenix and Beauty
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78920419" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78920419" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                100&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78917852" data-a="4357784710976897026" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1348/submission/78917852" submissionId="78917852">78917852</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">May/03/2020 21:12</span>
+    </td>
+    <td class="status-party-cell" data-participantId="50339593">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1348/standings/participant/50339593#p50339593'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="609088">
+            <a href="/contest/1348/problem/A">
+                A - Phoenix and Balance
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78917852" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78917852" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                30&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                100&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78052238" data-a="4245437969980702739" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1341/submission/78052238" submissionId="78052238">78052238</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/25/2020 20:41</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49884782">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1341/standings/participant/49884782#p49884782'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="599358">
+            <a href="/contest/1341/problem/A">
+                A - Nastya and Rice
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78052238" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78052238" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78051408" data-a="4245351005482909720" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1341/submission/78051408" submissionId="78051408">78051408</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/25/2020 20:29</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49884782">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1341/standings/participant/49884782#p49884782'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="599360">
+            <a href="/contest/1341/problem/C">
+                C - Nastya and Strange Generator
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78051408" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78051408" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                46&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                400&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78048781" data-a="4245093333214945291" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1341/submission/78048781" submissionId="78048781">78048781</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/25/2020 19:55</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49884782">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1341/standings/participant/49884782#p49884782'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="599359">
+            <a href="/contest/1341/problem/B">
+                B - Nastya and Door
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78048781" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78048781" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                93&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                800&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78048277" data-a="4245037739158265858" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1341/submission/78048277" submissionId="78048277">78048277</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/25/2020 19:48</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49884782">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1341/standings/participant/49884782#p49884782'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="599359">
+            <a href="/contest/1341/problem/B">
+                B - Nastya and Door
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78048277" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78048277" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                78&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="78044650" data-a="4244604170799661058" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1341/submission/78044650" submissionId="78044650">78044650</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/25/2020 19:03</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49884782">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1341/standings/participant/49884782#p49884782'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="599358">
+            <a href="/contest/1341/problem/A">
+                A - Nastya and Rice
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="78044650" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="78044650" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77728539" data-a="4210506244666859521" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1316/submission/77728539" submissionId="77728539">77728539</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/23/2020 11:30</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49733465">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1316/standings/participant/49733465#p49733465'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="552821">
+            <a href="/contest/1316/problem/B">
+                B - String Modification
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77728539" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77728539" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">1</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                30&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77725786" data-a="4210183692622921812" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1316/submission/77725786" submissionId="77725786">77725786</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/23/2020 10:56</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49733465">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1316/standings/participant/49733465#p49733465'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="552820">
+            <a href="/contest/1316/problem/A">
+                A - Grade Allocation
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77725786" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77725786" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                46&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                200&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77682165" data-a="4205602053613019147" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1328/submission/77682165" submissionId="77682165">77682165</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/22/2020 20:58</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49709236">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1328/standings/participant/49709236#p49709236'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="573967">
+            <a href="/contest/1328/problem/A">
+                A - Divisibility Problem
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77682165" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77682165" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77681781" data-a="4205561732460044289" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1328/submission/77681781" submissionId="77681781">77681781</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/22/2020 20:54</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49709236">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1328/standings/participant/49709236#p49709236'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="573967">
+            <a href="/contest/1328/problem/A">
+                A - Divisibility Problem
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77681781" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77681781" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">1</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77662522" data-a="4203076174861066245" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1333/submission/77662522" submissionId="77662522">77662522</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/22/2020 17:50</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49687057">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="586755">
+            <a href="/contest/1333/problem/C">
+                C - Eugene and an array
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77662522" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77662522" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">5</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                61&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                9000&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77662394" data-a="4203056005694644229" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1333/submission/77662394" submissionId="77662394">77662394</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/22/2020 17:49</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49687057">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="586755">
+            <a href="/contest/1333/problem/C">
+                C - Eugene and an array
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77662394" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77662394" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">5</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                62&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                9000&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77662236" data-a="4203039092113432581" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1333/submission/77662236" submissionId="77662236">77662236</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/22/2020 17:48</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49687057">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="586755">
+            <a href="/contest/1333/problem/C">
+                C - Eugene and an array
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77662236" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77662236" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">5</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                77&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                6600&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77640043" data-a="4200568893212737571" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1333/submission/77640043" submissionId="77640043">77640043</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/22/2020 14:37</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49687069">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1333/standings/participant/49687069#p49687069'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="586754">
+            <a href="/contest/1333/problem/B">
+                B - Kind Anton
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77640043" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77640043" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                78&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                800&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77638600" data-a="4200381959056138247" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1333/submission/77638600" submissionId="77638600">77638600</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/22/2020 14:22</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49687069">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1333/standings/participant/49687069#p49687069'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="586753">
+            <a href="/contest/1333/problem/A">
+                A - Little Artem
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77638600" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77638600" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                30&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77473199" data-a="4178700526110228493" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1335/submission/77473199" submissionId="77473199">77473199</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/21/2020 16:43</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49602726">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="592974">
+            <a href="/contest/1335/problem/D">
+                D - Anti-Sudoku
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77473199" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77473199" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                61&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77465805" data-a="4177760331999330305" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1335/submission/77465805" submissionId="77465805">77465805</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/21/2020 15:26</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49602738">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1335/standings/participant/49602738#p49602738'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="592974">
+            <a href="/contest/1335/problem/D">
+                D - Anti-Sudoku
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77465805" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77465805" submissionVerdict="WRONG_ANSWER" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">1</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                15&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77461189" data-a="4177149587649830927" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1335/submission/77461189" submissionId="77461189">77461189</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/21/2020 14:38</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49602738">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1335/standings/participant/49602738#p49602738'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="592973">
+            <a href="/contest/1335/problem/C">
+                C - Two Teams Composing
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77461189" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77461189" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                108&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                7400&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77459721" data-a="4176934925184368664" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1335/submission/77459721" submissionId="77459721">77459721</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/21/2020 14:23</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49602738">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1335/standings/participant/49602738#p49602738'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="592972">
+            <a href="/contest/1335/problem/B">
+                B - Construct the String
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77459721" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77459721" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77458829" data-a="4176821769975980056" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1335/submission/77458829" submissionId="77458829">77458829</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/21/2020 14:13</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49602738">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1335/standings/participant/49602738#p49602738'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="592971">
+            <a href="/contest/1335/problem/A">
+                A - Candies and Two Sisters
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77458829" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77458829" submissionVerdict="OK" contestType="ICPC" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                31&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77456574" data-a="4176551453337444412" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1337/submission/77456574" submissionId="77456574">77456574</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/21/2020 13:48</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49567454">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="594575">
+            <a href="/contest/1337/problem/C">
+                C - Linova and Kingdom
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77456574" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77456574" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                234&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                25300&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77456461" data-a="4176539899875418121" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1337/submission/77456461" submissionId="77456461">77456461</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/21/2020 13:47</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49567454">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="594575">
+            <a href="/contest/1337/problem/C">
+                C - Linova and Kingdom
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77456461" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77456461" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">9</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                139&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                21800&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77412725" data-a="4172225502147354626" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1337/submission/77412725" submissionId="77412725">77412725</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/21/2020 00:48</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49567454">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a>    </td>
+    <td class="status-small" data-problemId="594573">
+            <a href="/contest/1337/problem/A">
+                A - Ichihime and Triangle
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77412725" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77412725" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                30&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77398829" data-a="4171352369655824402" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1337/submission/77398829" submissionId="77398829">77398829</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/20/2020 22:05</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49567470">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1337/standings/participant/49567470#p49567470'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="594574">
+            <a href="/contest/1337/problem/B">
+                B - Kana and Dragon Quest game
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77398829" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77398829" submissionVerdict="OK" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-accepted'>Accepted</span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                30&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr data-submission-id="77397268" data-a="4171177117810270210" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1337/submission/77397268" submissionId="77397268">77397268</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/20/2020 21:41</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49567470">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1337/standings/participant/49567470#p49567470'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="594573">
+            <a href="/contest/1337/problem/A">
+                A - Ichihime and Triangle
+            </a>
+    </td>
+    <td>
+        GNU C++17
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77397268" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77397268" submissionVerdict="WRONG_ANSWER" contestType="CF" partyMemberIds=";1488383;"><span class='verdict-rejected'>Wrong answer on test <span class="verdict-format-judged">2</span></span></span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                30&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+
+
+<tr class="last-row" data-submission-id="77397221" data-a="4171170812798279680" partyMemberIds=";1488383;">
+    <td class="id-cell">
+                <a class="view-source" title="Source" href="/contest/1337/submission/77397221" submissionId="77397221">77397221</a>
+    </td>
+    <td class="status-small">
+            <span class="format-time" data-locale="en">Apr/20/2020 21:40</span>
+    </td>
+    <td class="status-party-cell" data-participantId="49567470">
+<a href="/profile/AnestheticCoder" title="Pupil AnestheticCoder" class="rated-user user-green">AnestheticCoder</a><sup style='margin-left: 0.25em;font-size: 8px;' title="Virtual participant"><a href='/contest/1337/standings/participant/49567470#p49567470'>#</a></sup>    </td>
+    <td class="status-small" data-problemId="594573">
+            <a href="/contest/1337/problem/A">
+                A - Ichihime and Triangle
+            </a>
+    </td>
+    <td>
+        GNU C11
+    </td>
+    <td partyMemberIds=";1488383;" class="status-cell status-small status-verdict-cell" submissionId="77397221" waiting="false">
+                <span class="submissionVerdictWrapper" submissionId="77397221" submissionVerdict="COMPILATION_ERROR" contestType="CF" partyMemberIds=";1488383;">Compilation error</span>
+            <i title="Diagnostics Hint" style="display: none" class="icon-warning-sign diagnosticsHint diagnostics-icon"></i>
+    </td>
+        <td class="time-consumed-cell">
+                0&nbsp;ms
+        </td>
+        <td class="memory-consumed-cell">
+                0&nbsp;KB
+        </td>
+</tr>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+    <div class="information-box" style="display: none;">
+        <h5>Judgement protocol</h5>
+        <hr/>
+        <div class="protocol" style="font-size:1.0rem;margin:1em;width:50em;max-height:30em;overflow:auto;font-family:courier new,monospace;"><pre>&nbsp;</pre></div>
+    </div>
+
+<div class="test-for-popup-proto" style="display:none;">
+    <div class="test-header">
+        Test: #<span class="test">&nbsp;</span>,
+        time: <span class="time">&nbsp;</span> ms.,
+        memory: <span class="memory">&nbsp;</span> KB,
+        exit code: <span class="exitCode">&nbsp;</span>,
+        checker exit code: <span class="checkerExitCode">&nbsp;</span>,
+        verdict: <span class="verdict">&nbsp;</span>
+    </div>
+    <div style="font-size:1.1rem;">
+        <div class="popup-input-div">
+            <div>Input</div>
+            <pre class="input">&nbsp;</pre>
+        </div>
+        <div class="popup-output-div">
+            <div>Output</div>
+            <pre class="output">&nbsp;</pre>
+        </div>
+        <div class="popup-answer-div">
+            <div>Answer</div>
+            <pre class="answer">&nbsp;</pre>
+        </div>
+        <div class="popup-checker-div">
+            <div>Checker Log</div>
+            <pre class="checker">&nbsp;</pre>
+        </div>
+        <div class="popup-diagnostics-div">
+            <div>Diagnostics</div>
+            <pre class="diagnostics">&nbsp;</pre>
+        </div>
+    </div>
+</div>
+<div class="pagination next-or-prev-prototype" style="float:left; display:none">
+    <a class="arrow prev">&larr;</a>
+    <a class="arrow next">&rarr;</a>
+</div>
+<style>
+    .source-popup-diagnostics {
+        font-weight: bold;
+        margin-bottom: 1em;
+    }
+
+    .source-popup-diagnostics .diagnosticsMessageType {
+        color: #E65100;
+    }
+
+    #program-source-text-copy {
+        cursor:pointer;
+        color:blue;
+        text-decoration:underline;
+    }
+</style>
+<div class="source-popup"  style="display:none;width:950px;height:600px;overflow:auto;padding:1em;margin:1em;font-size:1.2rem;">
+    <span class="source-popup-header" style="">&nbsp;</span>
+    <pre style="background-color: #eff0f1;"><code class="source-popup-source prettyprint linenums"><img src="//sta.codeforces.com/s/76560/images/indicator.gif"/></code></pre>
+</div>
+
+<script type="text/javascript">
+    var source = "";
+    $(document).ready(function () {
+        showSubmissionSourceCode = function(submissionId) {
+            $.post("/data/submitSource", {submissionId: submissionId}, function(data) {
+                var nop = $(".next-or-prev-prototype").clone().removeClass("next-or-prev-prototype").addClass("next-or-prev").css("display", "block");
+                Codeforces.facebox(".source-popup:first", "//sta.codeforces.com/s/76560");
+                var sourcePre = $("#facebox").find(".source-popup-source:first");
+                if (data["prettifyClass"]) {
+                    sourcePre.addClass(data["prettifyClass"]);
+                }
+                // sourcePre.empty();
+                // sourcePre.append($("<code></code>").text(data["source"]));
+                if (data.diagnosticsMessage) {
+                    var icon = "<i title=\"Diagnostics Hint\" class=\"icon-warning-sign diagnostics-icon\"></i> ";
+                    $("#facebox .source-popup").prepend($("<div class=\"source-popup-diagnostics\"></div>").html(icon + data.diagnosticsMessage));
+                }
+                if (data["source"]) {
+                    sourcePre.text(data["source"]);
+                } else if (data["sourceHtml"]) {
+                    sourcePre.html(data["sourceHtml"]);
+                }
+                sourcePre.removeClass("prettyprinted");
+                var header = "By " + data["partyName"]
+                    + ", contest: " + data["contestName"]
+                    + ", problem: " + data["problemName"]
+                    + ", " + data["verdict"] + ", " + "<a title='Direct Link' href=\"" + data["href"] + "\">#</a>"
+                    + ", " + "<span id=\"program-source-text-copy\" title='Copy' href='#'>Copy</span>";
+                if (data["offerChallenge"] === "true") {
+                    header += ", <a href=\"" + data["challengeLink"] + "\">hack it!</a>";
+                }
+                header += "<hr/>";
+
+                $("#facebox").find(".source-popup-header").html(header);
+                source = data["source"];
+
+                if ($("#facebox").find(".footer .pagination").size() === 0) {
+                    $("#facebox").find(".footer").append(nop);
+                }
+                var p = $("#facebox").find(".footer .pagination");
+
+                if (data["prevId"]) {
+                    p.find(".prev").attr("href", "#").click(function () {
+                        showSubmissionSourceCode(data["prevId"]);
+                        return false;
+                    });
+                }
+                if (data["nextId"]) {
+                    p.find(".next").attr("href", "#").click(function () {
+                        showSubmissionSourceCode(data["nextId"]);
+                        return false;
+                    });
+                }
+
+                prettyPrint();
+                if (data.diagnosticsLine) {
+                    $("#facebox .source-popup code li:nth-child(" + data.diagnosticsLine + ")").css("background", "#E57373");
+                }
+
+                var testCount = data["testCount"] ? parseInt(data["testCount"]) : 0;
+                if (testCount > 0) {
+                    $("#facebox").find(".source-popup").append("<hr/><h4>&rarr;Judgement Protocol</h4>");
+                }
+                for (var i = 1; i <= testCount; i++) {
+                    if (data["verdict#" + i]) {
+                        var e = $("div.test-for-popup-proto").clone()
+                            .removeClass("test-for-popup-proto").addClass("test-for-popup")
+                            .css("display", "block");
+                        e.find(".test").text(i);
+                        e.find(".time").text(data["timeConsumed#" + i]);
+                        e.find(".memory").text(data["memoryConsumed#" + i] ? parseInt(data["memoryConsumed#" + i]) / 1024 : "");
+                        e.find(".exitCode").text(data["exitCode#" + i]);
+                        e.find(".checkerExitCode").text(data["checkerExitCode#" + i]);
+                        e.find(".verdict").text(data["verdict#" + i]);
+
+                        if (data["input#" + i]) {
+                            e.find(".input").text(data["input#" + i]);
+                        } else {
+                            e.find(".popup-input-div").hide();
+                        }
+
+                        if (data["output#" + i]) {
+                            e.find(".output").text(data["output#" + i]);
+                        } else {
+                            e.find(".popup-output-div").hide();
+                        }
+
+                        if (data["answer#" + i]) {
+                            e.find(".answer").text(data["answer#" + i]);
+                        } else {
+                            e.find(".popup-answer-div").hide();
+                        }
+
+                        if (data["checkerStdoutAndStderr#" + i]) {
+                            e.find(".checker").text(data["checkerStdoutAndStderr#" + i] ? data["checkerStdoutAndStderr#" + i] : " ");
+                        } else {
+                            e.find(".popup-checker-div").hide();
+                        }
+
+                        if (data["diagnostics#" + i]) {
+                            e.find(".diagnostics").text(data["diagnostics#" + i]);
+                        } else {
+                            e.find(".popup-diagnostics-div").hide();
+                        }
+                        $("#facebox").find(".source-popup").append(e);
+                    }
+                }
+            }, "json");
+        };
+
+        $(".prettyprint.source-popup-source").each(function() {
+            var clipboard = new Clipboard('#program-source-text-copy', {
+                text: function(trigger) {
+                    return source;
+                }
+            });
+
+            clipboard.on('success', function(e) {
+                Codeforces.showMessage("The source code has been copied into the clipboard");
+                e.clearSelection();
+            });
+        });
+
+        $(".change-participant-type-link").click(function () {
+            var contestId = $(this).attr("data-contestId");
+            var targetParticipantId = $(this).attr("data-participantId");
+
+            var changeParticipantType = function () {
+                $.post("/data/changeParticipantType",
+                        { contestId: contestId, targetParticipantId: targetParticipantId },
+                        function(response) {
+                            if (response.success == "true") {
+                                Codeforces.reload();
+                            } else {
+                                Codeforces.showMessage("Changing participant type is failed");
+                            }
+                        },
+                        "json"
+                );
+            };
+
+            Codeforces.confirm(
+                    "Are you sure you want to change participant type from virtual to practice (this operation is not reversible and may take a few seconds)?", changeParticipantType, function () { }, "OK", "No"
+            );
+
+            return false;
+        });
+
+        $(".participant-devirtualize-link").click(function () {
+            var contestId = $(this).attr("data-contestId");
+            var targetParticipantId = $(this).attr("data-participantId");
+
+            var changeParticipantType = function () {
+                $.post("/data/changeParticipantType",
+                        { action: "devirtualize", contestId: contestId, targetParticipantId: targetParticipantId },
+                        function(response) {
+                            if (response.success == "true") {
+                                Codeforces.reload();
+                            } else {
+                                Codeforces.showMessage("Changing participant type is failed");
+                            }
+                        },
+                        "json"
+                );
+            };
+
+            Codeforces.confirm(
+                    "Are you sure you want to devirtualize this participant (this operation is not reversible)?", changeParticipantType, function () { }, "OK", "No"
+            );
+
+            return false;
+        });
+    });
+</script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+    window.diagnosticsIconHtml = "<i title=\"Diagnostics Hint\" class=\"icon-warning-sign diagnosticsHint diagnostics-icon\"></i>";
+    window.diagnosticsWaitingIconHtml = "<i title=\"Waiting for diagnostics\" class=\"icon-question-sign\"></i>";
+
+    $("a.information-box-link").click(function () {
+            var submissionId = $(this).attr("submissionId");
+            $.post("/data/judgeProtocol", {submissionId: submissionId}, function (data) {
+                if (data) {
+                    Codeforces.facebox(".information-box:first", "//sta.codeforces.com/s/76560");
+                    $("#facebox .information-box .protocol pre").text(data);
+                }
+            }, "json");
+            return false;
+        });
+
+        function isWaitingVerdictString(verdictString) {
+            return !verdictString || verdictString == "null" || verdictString == "TESTING" || verdictString == "SUBMITTED";
+        }
+
+        function updateVerdictByKey(submission) {
+            if (submission.t != "s") {
+                return;
+            }
+                var mode = "CONTEST";
+
+            var a = submission.d[0];
+            var id = submission.d[1];
+            var contestId = submission.d[2];
+            var problemId = submission.d[3];
+            var testset = submission.d[4];
+            var points = submission.d[5];
+            var verdictString = submission.d[6];
+            var passedTestCount = submission.d[7];
+            var judgedTestCount = submission.d[8];
+            var timeConsumed = submission.d[9];
+            var memoryConsumed = submission.d[10];
+            var participantId = submission.d[11];
+            var verdict = preparedVerdictFormats[submission.d[12]];
+            var enCreationTime = submission.d[13];
+            var ruCreationTime = submission.d[14];
+            var relativeTime = submission.d[15];
+            var lang = submission.d[16];
+            var diagnostics = submission.d[17];
+            var creationTimeStr = ("en" == "en" ? enCreationTime : ruCreationTime);
+
+            var onlyContestId = -1;
+
+
+            if ($(".status-frame-datatable tr[data-submission-id=" + id + "]").length == 0
+                    && false
+                    && (onlyContestId < 0 || contestId == onlyContestId)) {
+                if (39 > 0 && (onlyContestId != -1 || !Codeforces.isGym(contestId))) {
+                    $.post("/data/contests", {action: "getProblemName", mode: mode, contestId: contestId, problemId: problemId, communityCode: ""}, function(result) {
+                        if (result["success"] == "true") {
+                            var problemName = result["problemName"];
+                            $.post("/data/contests", {action: "getPartyName", contestId: contestId, participantId: participantId}, function(result) {
+                                if (result["success"] == "true") {
+                                    var partyName = result["partyName"];
+
+                                    var tdSubmissionId = "<td>" + id + "</td>";
+                                    var tdCreationTime = "<td class='status-small'>" + creationTimeStr + "</td>";
+                                    var tdPartyName = "<td class='status-party-cell' data-participantId='" + participantId + "'>" + partyName + "</td>";
+                                    var tdProblemName = "<td class='status-small' data-problemId='" + problemId + "'>" + problemName + "</td>";
+                                    var tdLang = "<td>" + lang + "</td>";
+                                    var tdVerdict = "<td class='status-cell status-small status-verdict-cell' submissionId='" + id + "'>" + verdict + "</td>";
+                                    var tdTime = "<td class='time-consumed-cell'>" + timeConsumed + "&nbsp;ms</td>";
+                                    var tdMemory = "<td class='memory-consumed-cell'>" + Math.floor(memoryConsumed / 1024) + "&nbsp;KB</td>";
+
+                                    var tr = $("<tr data-submission-id='" + id + "' data-a='" + a + "'>"
+                                        + tdSubmissionId
+                                        + tdCreationTime
+                                        + tdPartyName
+                                        + tdProblemName
+                                        + tdLang
+                                        + tdVerdict
+                                        + tdTime
+                                        + tdMemory
+                                    + "</tr>");
+
+                                    if (judgedTestCount != null && judgedTestCount != undefined) {
+                                        tr.find(".verdict-format-judged").text(judgedTestCount);
+                                    }
+                                    if (passedTestCount != null && passedTestCount != undefined) {
+                                        tr.find(".verdict-format-passed").text(passedTestCount);
+                                    }
+                                    if (points != null && points != undefined) {
+                                        tr.find(".verdict-format-points").text(points);
+                                    }
+
+                                    tr.insertAfter($(".status-frame-datatable tr:first-child"));
+                                    $(".status-frame-datatable tr[data-submission-id=" + id + "]").slice(1).remove();
+                                    Codeforces.updateDatatables();
+
+                                    $(".datatable").each(function () {
+                                        while ($(this).find("tr").length > 39 + 1)
+                                            $(this).find("tr:last-child").remove();
+                                    });
+                                }
+                            }, "json");
+                        }
+                    }, "json");
+                }
+            } else {
+                $(".status-frame-datatable tr[data-submission-id=" + id + "]").each(function () {
+                    if ($(this).attr("data-a") == undefined || $(this).attr("data-a") < a) {
+                        var verdictTd = $(this).find("td.status-verdict-cell");
+
+                        verdictTd.html(verdict);
+
+                        if (judgedTestCount != null && judgedTestCount != undefined) {
+                            verdictTd.find(".verdict-format-judged").text(judgedTestCount);
+                        }
+                        if (passedTestCount != null && passedTestCount != undefined) {
+                            verdictTd.find(".verdict-format-passed").text(passedTestCount);
+                        }
+                        if (points != null && points != undefined) {
+                            verdictTd.find(".verdict-format-points").text(points);
+                        }
+
+                        if (diagnostics === 1 || diagnostics === "1") {
+                            setTimeout(function () {
+                                $.post("/data/diagnosticsResults", {action: "find", submissionIds: JSON.stringify([id])}, function (ids) {
+                                    for (var i = 0; i < ids.length; i++) {
+                                        verdictTd.html(verdictTd.html() + " " + window.diagnosticsIconHtml);
+                                        window.assignDiagnosticsHintsClickListeners();
+                                    }
+                                });
+                            }, 1000);
+                        }
+
+                        if (diagnostics === 2 || diagnostics === "2") {
+                            verdictTd.html(verdictTd.html() + " " + window.diagnosticsWaitingIconHtml);
+                        }
+
+                        if (timeConsumed != null && timeConsumed != undefined)
+                            verdictTd.parent().find(".time-consumed-cell").text(timeConsumed + " ms");
+                        else
+                            verdictTd.parent().find(".time-consumed-cell").text("");
+
+                        if (memoryConsumed != null && memoryConsumed != undefined)
+                            verdictTd.parent().find(".memory-consumed-cell").text(Math.floor(memoryConsumed / 1024) + " KB");
+                        else
+                            verdictTd.parent().find(".memory-consumed-cell").text("");
+
+                        var waiting = diagnostics === 2 || diagnostics === "2" || isWaitingVerdictString(verdictString);
+                        verdictTd.attr("waiting", waiting.toString());
+
+                        verdictTd.parent().attr("data-a", a);
+
+                        if ("COMPILATION_ERROR" === verdictString || "PARTIAL" === verdictString) {
+                            window.setVerdictClickable(verdictTd);
+                        }
+                    } else {
+                        // info("Skipped because of a=" + a + " <= " + $(this).attr("data-a"));
+                    }
+                });
+            }
+        }
+
+        $(".change-time-limit-link").click(function () {
+            var parent = $(this).parent();
+            var contestId = $(this).attr("data-contestId");
+            var problemId = $(this).attr("data-problemId");
+            var newTimeLimit = $(this).attr("data-newTimeLimit");
+
+            var changeTimeLimit = function () {
+                $.post("/data/changeTimeLimit",
+                    { contestId: contestId, problemId: problemId, newTimeLimit: newTimeLimit },
+                    function(response) {
+                        if (response.success == "true") {
+                            Codeforces.reload();
+                        } else {
+                            Codeforces.showMessage(response.message);
+                        }
+                    },
+                    "json"
+                );
+            };
+
+            Codeforces.confirm(
+                        "Are you sure you want to change time limit?",
+                        changeTimeLimit, function () { },
+                        "Yes", "No"
+            );
+
+            return false;
+        });
+
+        var waitingCount = $(".status-frame-datatable td[waiting=true]").length;
+        if (window.codeforcesOptions.subscribeServerUrl && waitingCount > 0) {
+            info("There is waitingCount=" + waitingCount + ", starting submissionsEventCatcher...");
+            var channels = [];
+            if (Codeforces.getParticipantChannel()) {
+                channels.push("s_" + Codeforces.getParticipantChannel());
+            }
+            if (Codeforces.getContestChannel()) {
+                channels.push("s_" + Codeforces.getContestChannel());
+            }
+            if (Codeforces.getGlobalChannel()) {
+                channels.push("s_" + Codeforces.getGlobalChannel());
+            }
+
+            if (channels.length > 0) {
+                info("There are " + channels.length + " channels.");
+                window.submissionsEventCatcher = new EventCatcher(window.codeforcesOptions.subscribeServerUrl, channels);
+                channels.forEach(function(channel) {
+                    window.submissionsEventCatcher.subscribe(channel, function(json) {
+                        updateVerdictByKey(json);
+                    });
+                });
+                var interval = null;
+                var testWaitingsDone = function () {
+                    var waitingCount = $(".status-frame-datatable td[waiting=true]").length;
+                    info("There are " + waitingCount + " waitings...");
+                    if (interval && waitingCount === 0) {
+                        info("Stopping submissionsEventCatcher.");
+                        window.submissionsEventCatcher.disconnect();
+                        info("Stopped submissionsEventCatcher.");
+                        clearInterval(interval);
+                        interval = null;
+                    }
+                }
+                interval = setInterval(testWaitingsDone, 10000);
+            }
+        }
+        });
+    </script>
+    <script type="application/javascript">
+        $(function() {
+            window.assignDiagnosticsHintsClickListeners = function() {
+                $(".diagnosticsHint").each(function () {
+                    var $icon = $(this);
+                    if (!$icon.attr("data-click")) {
+                        $icon.click(function () {
+                            showSubmissionSourceCode($icon.closest("tr").attr("data-submission-id"));
+                        });
+                        $icon.attr("data-click", "has");
+                    }
+                });
+            }
+            window.assignDiagnosticsHintsClickListeners();
+
+            window.setVerdictClickable = function($td) {
+                var submissionId = $td.attr("submissionId");
+                var text = $td.text();
+                var $a = $("<a href=\"#\"></a>").text(text);
+                $td.html("").append($a);
+                $a.click(function () {
+                    $.post("/data/judgeProtocol", {submissionId: submissionId}, function (data) {
+                        Codeforces.facebox(".information-box:first", "//sta.codeforces.com/s/76560");
+                        $("#facebox").find(".information-box .protocol pre").text(data);
+                    }, "json");
+                    return false;
+                });
+            };
+
+            var viewableSubmissionIds = [
+                        "79131744"
+                            ,
+                        "79131571"
+                            ,
+                        "79001823"
+                            ,
+                        "78997556"
+                            ,
+                        "78996724"
+                            ,
+                        "78996501"
+                            ,
+                        "78996257"
+                            ,
+                        "78984494"
+                            ,
+                        "78984031"
+                            ,
+                        "78981904"
+                            ,
+                        "78921454"
+                            ,
+                        "78920809"
+                            ,
+                        "78920419"
+                            ,
+                        "78917852"
+                            ,
+                        "78052238"
+                            ,
+                        "78051408"
+                            ,
+                        "78048781"
+                            ,
+                        "78048277"
+                            ,
+                        "78044650"
+                            ,
+                        "77728539"
+                            ,
+                        "77725786"
+                            ,
+                        "77682165"
+                            ,
+                        "77681781"
+                            ,
+                        "77662522"
+                            ,
+                        "77662394"
+                            ,
+                        "77662236"
+                            ,
+                        "77640043"
+                            ,
+                        "77638600"
+                            ,
+                        "77473199"
+                            ,
+                        "77465805"
+                            ,
+                        "77461189"
+                            ,
+                        "77459721"
+                            ,
+                        "77458829"
+                            ,
+                        "77456574"
+                            ,
+                        "77456461"
+                            ,
+                        "77412725"
+                            ,
+                        "77398829"
+                            ,
+                        "77397268"
+                            ,
+                        "77397221"
+            ];
+
+            $(".hiddenSource").each(function() {
+                var tr = $(this).closest("tr");
+
+                var partyMemberIds = tr.attr("partyMemberIds");
+                var show = false;
+                var submissionId = tr.attr("data-submission-id");
+                if (
+                        viewableSubmissionIds.indexOf(submissionId) != -1) {
+                    show = true;
+                }
+                if (show) {
+                    var p = $(this).parent();
+                    $(this).remove();
+                    p.append($("<a class=\"view-source\" title=\"Source\" href=\"#\" submissionId=\"" + submissionId + "\">" + submissionId + "</a>"));
+                }
+            });
+
+            $("a.view-source[submissionId]").each(function () {
+                var handled = $(this).attr("handled");
+                var e = $(this);
+                if (handled != "true") {
+                    var handler = function () {
+                        showSubmissionSourceCode(e.attr("submissionId"));
+                        return false;
+                    };
+                    $(this).bind("click", handler);
+                    $(this).attr("handled", "true");
+                }
+            });
+
+            var tryDiagnosticsSubmissionIds = [];
+            $(".status-frame-datatable .id-cell a").each(function () {
+                var tr = $(this).closest("tr");
+                var submissionId = tr.attr("data-submission-id");
+                tryDiagnosticsSubmissionIds.push(submissionId);
+            });
+
+            if (tryDiagnosticsSubmissionIds.length > 0) {
+                $.post("/data/diagnosticsResults", {action: "find", submissionIds: JSON.stringify(tryDiagnosticsSubmissionIds)}, function (ids) {
+                    for (var i = 0; i < ids.length; i++) {
+                        $(".status-frame-datatable tr[data-submission-id='" + ids[i] + "'] .diagnosticsHint").css("display", "inline");
+                    }
+                });
+            }
+        });
+    </script>
+
+
+
+
+<div class="pagination">
+    <ul>
+            <li><a href="/submissions/AnestheticCoder/page/1" class="arrow">&larr;</a></li>
+        <li>
+                <span class="page-index" pageIndex="1"><a href="/submissions/AnestheticCoder/page/1">1</a></span>
+        </li>
+        <li>
+                <span class="page-index active" pageIndex="2"><a href="/submissions/AnestheticCoder/page/2">2</a></span>
+        </li>
+            <span class="inactive">&rarr;</span>    
+    </ul>
+</div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+function handlePaginationKeyboardEvent(right) {
+    var pageIndex = parseInt($(".pagination").find("span.active").attr("pageIndex"));
+    if (right) {
+        pageIndex++;
+    } else {
+        pageIndex--;
+    }
+    $(".pagination").find("span[pageIndex=" + pageIndex + "]").each(function () {
+        Codeforces.redirect($(this).find("a").attr("href"));
+    });
+}
+
+$(document).bind('keydown', 'ctrl+left', function() {
+    handlePaginationKeyboardEvent(false);
+});
+
+$(document).bind('keydown', 'ctrl+right', function() {
+    handlePaginationKeyboardEvent(true);
+});
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+$(".toggle-show-unofficial input[name='showUnofficial']").change(function () {
+    $(".toggle-show-unofficial").submit();
+});
+        });
+    </script>
+                </div>
+        </div>
+            <br style="clear: both;"/>
+            <div id="footer">
+                <div><a href="https://codeforces.com/">Codeforces</a> (c) Copyright 2010-2020 Mike Mirzayanov</div>
+                <div>The only programming contests Web 2.0 platform</div>
+                    <div>Server time: <span class="format-timewithseconds" data-locale="en">Jul/29/2020 15:41:18</span> (g2).</div>
+                    <div>Desktop version, switch to <a rel="nofollow" class="switchToMobile" href="?mobile=true">mobile version</a>.</div>
+                <div class="smaller"><a href="/privacy">Privacy Policy</a></div>
+
+                    <div style="margin-top: 25px;">
+                        Supported by
+                    </div>
+                    <div style="margin-top: 8px; padding-bottom: 20px; position: relative; left: 10px;">
+                        <a href="https://telegram.org/"><img style="margin-right: 2em; width: 60px;" src="//sta.codeforces.com/s/76560/images/telegram-100x100.png" alt="Telegram" title="Telegram"/></a>
+                        <a href="http://ifmo.ru/en/"><img style="width: 120px;" src="//sta.codeforces.com/s/76560/images/itmo_small_en-logo.png" alt="ИТМО" title="ИТМО"/></a>
+                    </div>
+            </div>
+        <script type="text/javascript">
+            $(function() {
+                $(".switchToMobile").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "true"));
+                    return false;
+                });
+                $(".switchToDesktop").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "false"));
+                    return false;
+                });
+            });
+        </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 1600) {
+                $('.button-up').css('width', '30px').css('line-height', '30px').css('font-size', '20px');
+            }
+
+            if ($(window).width() >= 1200) {
+                $ (window).scroll (function () {
+                    if ($ (this).scrollTop () > 100) {
+                        $ ('.button-up').fadeIn();
+                    } else {
+                        $ ('.button-up').fadeOut();
+                    }
+                });
+
+                $('.button-up').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
+                });
+
+                $('.button-up').hover(function () {
+                    $(this).animate({
+                        'opacity':'1'
+                    }).css({'background-color':'#e7ebf0','color':'#6a86a4'});
+                }, function () {
+                    $(this).animate({
+                        'opacity':'0.7'
+                    }).css({'background':'none','color':'#d3dbe4'});;
+                });
+            }
+            Codeforces.focusOnError();
+        });
+    </script>
+
+        <div class="userListsFacebox" style="display:none;">
+            <div style="padding: 0.5em; width: 600px; max-height: 200px; overflow-y: auto">
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                User lists
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="//sta.codeforces.com/s/76560/images/icons/control.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="//sta.codeforces.com/s/76560/images/icons/control-270.png"/>
+                        <input style="padding:0 0 0 20px;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+            </div>
+        </div>
+        <script type="application/javascript">
+            $(function() {
+                $(".userListMarker").click(function() {
+                    $.post("/data/lists", {action: "findTouched"}, function(json) {
+                        Codeforces.facebox(".userListsFacebox");
+                        var tbody = $("#facebox tbody");
+                        tbody.empty();
+                        for (var i in json) {
+                            tbody.append(
+                                    $("<tr></tr>").append(
+                                            $("<td></td>").attr("data-readKey", json[i].readKey).text(json[i].name)
+                                    )
+                            );
+                        }
+                        Codeforces.updateDatatables();
+                        tbody.find("td").css("cursor", "pointer").click(function() {
+                            document.location = Codeforces.updateUrlParameter(document.location.href, "list", $(this).attr("data-readKey"));
+                        });
+                    }, "json");
+                });
+            });
+        </script>
+</div>
+    <script type="application/javascript">
+        if ('serviceWorker' in navigator && 'fetch' in window && 'caches' in window) {
+            var parser = new UAParser();
+            var browserName = parser.getBrowser().name;
+            var browserVersion = parser.getBrowser().version;
+
+            var supportedBrowser = false;
+            var supportedBrowsers = {
+                "Chrome": "76",
+                "Firefox": "68",
+                // "Edge": "18",
+                "Safari": "12.1",
+                "Opera": "63",
+                "Yandex": "19.9"
+            };
+
+            for (var name in supportedBrowsers) {
+                if (name === browserName && supportedBrowsers[name] <= browserVersion) {
+                    supportedBrowser = true;
+                }
+            }
+
+            if (supportedBrowser) {
+                navigator.serviceWorker.register('/service-worker-76560.js')
+                    .then(function (registration) {
+                        console.log('Service worker registered');
+                    })
+                    .catch(function (error) {
+                        console.log('Registration failed: ', error);
+                    });
+            } else {
+                navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                    for (var i = 0; i < registrations.length; i++) {
+                        registrations[i].unregister();
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

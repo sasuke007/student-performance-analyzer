@@ -1,0 +1,1 @@
+if someone has less than 12 accepted submissions in codeforces than code will throw exception

@@ -1,0 +1,71 @@
+\section{Leetcode}
+        \vspace{0.3 cm}
+        \begin{minipage}[t]{0.4\textwidth}
+            \subsection{Profile}
+                \vspace{0.3 cm}
+                \begin{itemize}
+                    \item Handle
+                    \item Rating
+                    \item Global Ranking
+                    \item Solved Questions
+                    \item Accepted Submissions
+                    \item Acceptance Rate
+                    \item Points
+                    \item Contributions
+                    \item submissions is last year
+                \end{itemize}
+        \end{minipage}
+        \begin{minipage}[t]{0.59\textwidth}
+            \subsection{Recent Submissions}
+            \vspace{0.3 cm}
+            %\begin{minipage}[t]{0.5\textwidth}
+            \begin{itemize}
+                %\color{red}
+                \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+                \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+                \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+                \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+                \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+                \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+                 \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+                 \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+                 \item
+                \href{https://codeforces.com/problemset/problem/1368/H2}{\bf first question}
+            \end{itemize}
+            %\end{minipage}
+        \end{minipage}
+        \sectionsep
+    \section{Geeks For Geeks}
+    \vspace{0.3 cm}
+    \begin{minipage}[t]{0.4\textwidth}
+    \subsection{Profile}
+        \begin{itemize}
+            \item Handle
+            \item Total Problems Solved
+            \item Rank in Institute
+            \item Courses Attended
+            \item Monthly Coding Score 
+            \item Weekly Coding Score
+        \end{itemize}
+    \end{minipage}
+    \begin{minipage}[t]{0.59\textwidth}
+        \subsection{Questions Solved}
+            \begin{itemize}
+                \item School
+                \item Basic
+                \item Easy
+                \item Medium
+                \item Hard
+            \end{itemize}
+    \end{minipage}
+    \newpage
+    \section{Stack Overflow}
+

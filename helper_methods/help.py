@@ -1,4 +1,5 @@
 import os
+import sys
 
 import requests
 
@@ -50,7 +51,7 @@ def read_file(path):
 
 
 def load_template(template_name):
-    root_path = "E:\\PyCharm\\Student Performance Analyzer"
+    root_path = sys.path[0]
     path = os.path.join(root_path, "templates", template_name)
     template = read_file(path)
     return template

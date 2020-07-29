@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="X-Csrf-Token" content="5ce7244a61f4dfdc08a2f0bc19d4bfd1"/>
+    <meta name="X-Csrf-Token" content="b91d8ed3e343ef5e887f7b3d89927e38"/>
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
 
     <script type="text/javascript" src="//sta.codeforces.com/s/76560/js/jquery-1.8.3.js"></script>
@@ -153,7 +153,7 @@
 
 
 </head>
-<body class=" "><span style='display:none;' class='csrf-token' data-csrf='5ce7244a61f4dfdc08a2f0bc19d4bfd1'>&nbsp;</span>
+<body class=" "><span style='display:none;' class='csrf-token' data-csrf='b91d8ed3e343ef5e887f7b3d89927e38'>&nbsp;</span>
 <!-- .notificationTextCleaner used in Codeforces.showAnnouncements() -->
 <div class="notificationTextCleaner" style="font-size: 0px"></div>
 <div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
@@ -444,7 +444,7 @@
                 <li class=""><a href="/help">Help</a></li>
                 <li class=""><a href="/10years"><span style="color:#ce2a2a;font-weight:bold;">10 years! <i style="font-size:100%" class="icon-gift"></i></span></a></li>
     </ul>
-        <form method="post" action="/search"><input type='hidden' name='csrf_token' value='5ce7244a61f4dfdc08a2f0bc19d4bfd1'/>
+        <form method="post" action="/search"><input type='hidden' name='csrf_token' value='b91d8ed3e343ef5e887f7b3d89927e38'/>
             <input class="search" name="query" data-isPlaceholder="true" value=""/>
         </form>
     <br style="clear: both;"/>
@@ -475,7 +475,7 @@
         </div>
 <div style="padding: 0.5em;">
         <div style="text-align:center;border-bottom: 1px solid rgb(185, 185, 185);margin:0 -0.5em 0.5em -0.5em;padding: 0 1em 0.5em 1em;">
-            <span class='contest-state-phase'>Before contest</span><br/><a href="/contests/1389">Educational Codeforces Round 92 (Rated for Div. 2)</a><br/><span class='countdown' home='//sta.codeforces.com/s/76560' noRedirection='true' textBeforeRedirect=''>01:53:43</span><br/><a href="/contestRegistration/1389">Register now »</a>
+            <span class='contest-state-phase'>Before contest</span><br/><a href="/contests/1389">Educational Codeforces Round 92 (Rated for Div. 2)</a><br/><span class='countdown' home='//sta.codeforces.com/s/76560' noRedirection='true' textBeforeRedirect=''>01:37:30</span><br/><a href="/contestRegistration/1389">Register now »</a>
         </div>
         <div style="text-align:center;">
             <div class="socials" style="text-align: left;">
@@ -674,7 +674,7 @@
             <div class="top-links">
             </div>
         </div>
-        <form class="handleForm" method="post"><input type='hidden' name='csrf_token' value='5ce7244a61f4dfdc08a2f0bc19d4bfd1'/>
+        <form class="handleForm" method="post"><input type='hidden' name='csrf_token' value='b91d8ed3e343ef5e887f7b3d89927e38'/>
             <div style="padding:1em;text-align:right;">
                 <label style="padding-right:1em;">Handle:
                     <input style="width:12em;" type="text" class="handleBox"/>
@@ -705,9 +705,7 @@
     </script>
 
 
-
-
-    <div class="roundbox sidebox" style="">
+<div class="roundbox sidebox" style="">
             <div class="roundbox-lt">&nbsp;</div>
             <div class="roundbox-rt">&nbsp;</div>
         <div class="caption titled">&rarr; Recent actions
@@ -716,6 +714,30 @@
         </div>
         <div class="recent-actions">
             <ul>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/d-agrawal" title="Unrated, d-agrawal" class="rated-user user-black">d-agrawal</a>        &rarr;
+        <a href="/blog/entry/71386">Competitive Programming Helper Extension for VS Code</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/pikmike" title="Grandmaster pikmike" class="rated-user user-red">pikmike</a>        &rarr;
+        <a href="/blog/entry/80723">Educational Codeforces Round 92 [Rated for Div. 2]</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/kstheking" title="Specialist kstheking" class="rated-user user-cyan">kstheking</a>        &rarr;
+        <a href="/blog/entry/80693">Codenation Interview Question — Help Needed</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/decoder__" title="Newbie decoder__" class="rated-user user-gray">decoder__</a>        &rarr;
+        <a href="/blog/entry/80757">Codeforces contests</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
                         <li><div style="font-size:0.9em;padding:0.5em 0;">
 <a href="/profile/priyanshu-panwar" title="Newbie priyanshu-panwar" class="rated-user user-gray">priyanshu-panwar</a>        &rarr;
         <a href="/blog/entry/80698">CodeNation Intern Hiring 2021 Program Questions</a>
@@ -737,12 +759,6 @@
                         <li><div style="font-size:0.9em;padding:0.5em 0;">
 <a href="/profile/vovuh" title="Master vovuh" class="rated-user user-orange">vovuh</a>        &rarr;
         <a href="/blog/entry/67598">Codeforces Round #565 (Div. 3) Editorial</a>
-&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
-</div>
-</li>
-                        <li><div style="font-size:0.9em;padding:0.5em 0;">
-<a href="/profile/pikmike" title="Grandmaster pikmike" class="rated-user user-red">pikmike</a>        &rarr;
-        <a href="/blog/entry/80723">Educational Codeforces Round 92 [Rated for Div. 2]</a>
 &nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
 </div>
 </li>
@@ -773,12 +789,6 @@
                         <li><div style="font-size:0.9em;padding:0.5em 0;">
 <a href="/profile/Dhruv_Rana" title="Pupil Dhruv_Rana" class="rated-user user-green">Dhruv_Rana</a>        &rarr;
         <a href="/blog/entry/80750">No editorial for CSES problem set</a>
-&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
-</div>
-</li>
-                        <li><div style="font-size:0.9em;padding:0.5em 0;">
-<a href="/profile/kstheking" title="Specialist kstheking" class="rated-user user-cyan">kstheking</a>        &rarr;
-        <a href="/blog/entry/80693">Codenation Interview Question — Help Needed</a>
 &nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
 </div>
 </li>
@@ -854,18 +864,6 @@
 &nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
 </div>
 </li>
-                        <li><div style="font-size:0.9em;padding:0.5em 0;">
-<a href="/profile/Petr" title="Legendary Grandmaster Petr" class="rated-user user-legendary"><span class="legendary-user-first-letter">P</span>etr</a>        &rarr;
-        <a href="/blog/entry/80748">A pen testing week</a>
-&nbsp;&nbsp;<img alt="Text created or updated" title="Text created or updated" src="//sta.codeforces.com/s/76560/images/icons/x-update-12x12.png" style="vertical-align:middle;"/>
-</div>
-</li>
-                        <li><div style="font-size:0.9em;padding:0.5em 0;">
-<a href="/profile/aop" title="Newbie aop" class="rated-user user-gray">aop</a>        &rarr;
-        <a href="/blog/entry/80729">Doubt About set Usage</a>
-&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="//sta.codeforces.com/s/76560/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
-</div>
-</li>
             </ul>
         </div>
             <div class="bottom-links">
@@ -881,8 +879,7 @@
                     </tbody>
                 </table>
             </div>
-    </div>
-</div>
+    </div></div>
                         <div id="pageContent" class="content-with-sidebar">
                     <div class="second-level-menu">
 <ul class="second-level-menu-list">
@@ -899,7 +896,7 @@
 </ul>
 </div>
     <div style="float:right;position:relative;bottom:3em;font-size:1.0rem;">
-        <form action="" method="post" class="toggle-show-unofficial" style="margin-top:0.5em;"><input type='hidden' name='csrf_token' value='5ce7244a61f4dfdc08a2f0bc19d4bfd1'/>
+        <form action="" method="post" class="toggle-show-unofficial" style="margin-top:0.5em;"><input type='hidden' name='csrf_token' value='b91d8ed3e343ef5e887f7b3d89927e38'/>
             <input type="hidden" name="action" value="toggleShowUnofficial"/>
             <input name="showUnofficial" id="showUnofficial" type="checkbox" checked/>
             <label for="showUnofficial" style="position:relative;bottom:0.4em;">show unofficial</label>
@@ -2906,7 +2903,7 @@ $(".toggle-show-unofficial input[name='showUnofficial']").change(function () {
             <div id="footer">
                 <div><a href="https://codeforces.com/">Codeforces</a> (c) Copyright 2010-2020 Mike Mirzayanov</div>
                 <div>The only programming contests Web 2.0 platform</div>
-                    <div>Server time: <span class="format-timewithseconds" data-locale="en">Jul/29/2020 15:41:18</span> (g2).</div>
+                    <div>Server time: <span class="format-timewithseconds" data-locale="en">Jul/29/2020 15:57:30</span> (g2).</div>
                     <div>Desktop version, switch to <a rel="nofollow" class="switchToMobile" href="?mobile=true">mobile version</a>.</div>
                 <div class="smaller"><a href="/privacy">Privacy Policy</a></div>
 
